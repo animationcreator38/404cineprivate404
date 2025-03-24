@@ -1358,7 +1358,7 @@ async def top(_, message):
     await message.reply_text(f"<b>Tᴏᴘ Sᴇᴀʀᴄʜᴇs Oғ Tʜᴇ Dᴀʏ 👇</b>", reply_markup=reply_markup)
 
     
-@Client.on_message(filters.private & filters.command("botseachlisting") & filters.user(ADMINS))
+@Client.on_message(filters.private & filters.command("botsclist") & filters.user(ADMINS))
 async def trendlist(client, message):
     def is_alphanumeric(string):
         return bool(re.match('^[a-zA-Z0-9 ]*$', string))
