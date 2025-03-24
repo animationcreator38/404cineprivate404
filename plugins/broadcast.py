@@ -19,7 +19,7 @@ async def broadcast(bot, message):
     deleted = 0
     failed =0
     success = 0
-    btn = InlineKeyboardMarkup([[InlineKeyboardButton(" Sᴇᴀʀᴄʜ ʜᴇʀᴇ", url=GRP_LNK)]])
+    btn = InlineKeyboardMarkup([[InlineKeyboardButton("🎥 Aʟʟ Lᴀᴛᴇsᴛ Mᴏᴠɪᴇs Hᴇʀᴇ 🎥", url=GRP_LNK)]])
     async for user in users:
         pti, sh = await broadcast_messages(int(user['id']), b_msg, reply_markup=btn)
         if pti:
