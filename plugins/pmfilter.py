@@ -123,8 +123,8 @@ async def pm_text(bot, message):
             await auto_filter(bot, message)
         else:
             await message.reply_text(
-             text=f"<b>Hᴇʏ {user} 😎 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ꜰʀᴏᴍ ʜᴇʀᴇ 🙅🏻 ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴡʜᴇɴ ʏᴏᴜ ꜱᴇɴᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴍᴏᴠɪᴇ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ, 🫡</b>",   
-             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=GRP_LNK)]])
+             text=f"<b>Hᴇʏ {user} 😎 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ꜰʀᴏᴍ ʜᴇʀᴇ 🙅🏻 ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴡʜᴇɴ ʏᴏᴜ ꜱᴇɴᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴍᴏᴠɪᴇ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.</b>",   
+             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔎 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Hᴇʀᴇ 🔍", url=GRP_LNK)]])
             )
             await bot.send_message(
                 chat_id=LOG_CHANNEL,
